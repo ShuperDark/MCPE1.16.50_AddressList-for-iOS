@@ -1,0 +1,2 @@
+Block::getColor(BlockSource&, BlockPos const&)	//0x1029bbef8
+Block::getColor()	//0x1029bbee0

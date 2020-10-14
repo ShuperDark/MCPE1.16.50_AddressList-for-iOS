@@ -1,0 +1,32 @@
+Actor::isInWall()	//0x10228a450
+Actor::isInvisible()	//0x10229f5b8
+Actor::canShowNameTag()	//0x10229f5e0
+Actor::setNameTagVisible(bool)	//0x10229f608
+Actor::heal(int)	//0x1022a40a8
+Actor::canSeeInvisible()	//0x100b1fda4
+Actor::getPlayerOwner()	//0x10228a34c
+Actor::canDestroyBlock(Block const&)	//0x10228cbc8
+Actor::isOverWater()	//0x10228ce44
+Actor::getRadius()	//0x10228d744
+Actor::isSkyLit(float)	//0x10228d75c
+Actor::getBrightness(float)	//0x10228d890
+Actor::setSize(float, float)	//0x10228dba8
+Actor::getCommandPermissionLevel()	//0x1022912f8
+Actor::_setPos(Vec3 const&)	//0x1022919a0
+Actor::checkFallDamage(float, bool)	//0x1022920c0
+Actor::causeFallDamage(float)	//0x102292364
+Actor::handleFallDistanceOnServer(float, bool)	//0x1022923ec
+Actor::teleportTo(Vec3 const&, bool, int, int)	//0x102292514
+Actor::tryTeleportTo(Vec3 const&, bool, bool, int, int)	//0x10229261c
+Actor::wasHurt()	//0x102292f8c
+Actor::hurt(ActorDamageSource const&, int, bool, bool)	//0x102292f94
+Actor::_hurt(ActorDamageSource const&, int, bool, bool)	//0x102293014
+Actor::doFireHurt(int)	//0x1022932bc
+Actor::canFly()	//0x102294218
+Actor::getJumpDuration()	//0x10229436c
+Actor::getStrength()	//0x1022946b4
+Actor::getColor()	//0x102295c98
+Actor::getAmbientSoundIntervalRange(float&)	//0x102295e00
+Actor::getAmbientSoundIntervalMin(float&)	//0x102295dac
+Actor::getPickRadius()	//0x102295eec
+Actor::getPos() //0x10228d2b8

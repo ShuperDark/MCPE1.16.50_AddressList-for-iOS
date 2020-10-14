@@ -1,0 +1,15 @@
+vtable for LocalPlayer	//0x103bfe870
+
+LocalPlayer::causeFallDamage(float)	//0x100b1e090
+LocalPlayer::checkFallDamage(float, bool)	//0x100b1e040
+LocalPlayer::setPlayerGameTypeWithoutServerNotification(GameType)	//0x100b1df7c
+LocalPlayer::setPlayerGameType(GameType)	//0x100b1dee0
+LocalPlayer::tickWorld(Tick const&)	//0x100b18a50
+LocalPlayer::actuallyHurt(int, ActorDamageSource const*, bool)	//0x100b1b640
+LocalPlayer::_hurt(ActorDamageSource const&, int, bool, bool)	//0x100b1b514
+LocalPlayer::aiStep()	//0x100b19b04
+LocalPlayer::travel(float, float, float)	//0x100b1af20
+LocalPlayer::closeScreen()	//0x100b1a1a0
+LocalPlayer::openCodeScreen()	//0x100b1c16c
+LocalPlayer::startCrafting(BlockPos const&, bool)	//0x100b1bc98
+LocalPlayer::openFurnace(BlockPos const&)	//0x100b1bd6c

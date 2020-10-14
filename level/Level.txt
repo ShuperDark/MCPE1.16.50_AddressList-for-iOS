@@ -1,0 +1,7 @@
+vtable for Level	//0x103d80590
+
+Level::Level(SoundPlayer&, std::unique_ptr<LevelStorage, std::default_delete<LevelStorage>>, IMinecraftEventing&, bool, Scheduler&, StructureManager&, ResourcePackManager&, IEntityRegistryOwner&, std::unique_ptr<BlockComponentFactory, std::default_delete<BlockComponentFactory>>, std::unique_ptr<BlockDefinitionGroup, std::default_delete<BlockDefinitionGroup>>)	//0x10288e35c
+Level::tick()	//0x102896af0
+Level::getTime()	//0x102897c08
+Level::savePlayers()	//0x10289cb08
+Level::getSeed()	//0x10289c610

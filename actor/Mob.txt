@@ -1,0 +1,9 @@
+Mob::isSneaking()	//0x10229f5a0
+Mob::knockback(Actor*, int, float, float, float, float, float)	//0x102452060
+Mob::getDeathTime()	//0x10245af18
+Mob::getJumpPower()	//0x102458c7c
+Mob::onPlayerJump(int)	//0x10245e208
+Mob::setIsPregnant(bool)	//0x102457734
+Mob::sendInventory(bool)	//0x10245b090
+Mob::rideTick()	//0x10245d240
+Mob::canPowerJump()	//0x10245eedc

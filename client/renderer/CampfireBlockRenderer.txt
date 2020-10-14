@@ -1,0 +1,2 @@
+CampfireBlockRenderer::CampfireBlockRenderer()	//0x100c78d30
+CampfireBlockRenderer::_drawItem(BaseActorRenderContext&, BlockSource&, CampfireBlockActor&, float, int)	//0x100c790b8

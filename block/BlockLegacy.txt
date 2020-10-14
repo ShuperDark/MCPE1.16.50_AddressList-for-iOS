@@ -1,0 +1,9 @@
+BlockLegacy::getColor(BlockSource&, BlockPos const&, Block const&)	//0x1029c0bb0
+BlockLegacy::getColorAtPos(BlockSource&, BlockPos const&)	//0x1029c0bb8
+BlockLegacy::getColorForParticle(BlockSource&, BlockPos const&, Block const&)	//0x1029c0bc0
+BlockLegacy::getColor(Block const&)	//0x1029c0ba8
+BlockLegacy::setDestroyTime(float)	//0x1029c1114
+BlockLegacy::getAlphaTested()	//0x1029c1938
+BlockLegacy::canHartAndBreakItem()	//0x1029c1ae8
+BlockLegacy::isUnbreakable()	//0x1029c04d4
+BlockLegacy::getMapColor()	//0x1029bf104

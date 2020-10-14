@@ -1,0 +1,3 @@
+LevelData::LevelData()	//0x102e59a04
+LevelData::getTagData(CompoundTag const&)	//0x102e5a88c
+LevelData::getTime()	//0x102e60634

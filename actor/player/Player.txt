@@ -1,0 +1,14 @@
+Player::getCommandPermissionLevel()	//0x102657ad8
+Player::isOperator()	//0x102657ae0
+Player::getPlayerPermissionLevel()	//0x102657ae8
+Player::setPermissions(CommandPermissionLevel)	//0x102657af0
+Player::canUseOperatorBlocks()	//0x102657af8
+Player::setPlayerGameType(GameType)	//0x10266382c
+Player::tickWorld(Tick const&)	//0x102662eec
+Player::take(Actor&, int, int)	//0x10265bb50
+Player::isHurt()	//0x10265cf7c
+Player::_hurt(ActorDamageSource const&, int, bool, bool)	//0x10265d020
+Player::setBedRespawnPosition(BlockPos const&)	//0x1026527b8
+Player::getSpeed()	//0x102651e80
+Player::actuallyHurt(int, ActorDamageSource const*, bool)	//0x102651950
+Player::add(ItemStack&)	//0x102657804

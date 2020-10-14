@@ -1,0 +1,4 @@
+ServerPlayer::handleFallDistanceOnServer(float, bool)	//0x1020afc5c
+ServerPlayer::tickWorld(const Tick&)	//0x1020ac7c4
+ServerPlayer::die(ActorDamageSource const&)	//0x1020ac700
+ServerPlayer::checkFallDamage(float, bool)	//0x1020afb80

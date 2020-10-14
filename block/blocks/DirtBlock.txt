@@ -1,0 +1,4 @@
+vtable for DirtBlock(0x103da4040)
+
+DirtBlock::DirtBlock(std::string const&, int)	//0x102aa1f1c
+DirtBlock::buildDescriptionId(Block const&)	//0x102aa20cc
