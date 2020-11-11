@@ -1,0 +1,7 @@
+HitResult::HitResult(Vec3 const&, Vec3 const&, Vec3 const&)	//0x102e975c8
+HitResult::HitResult()	//0x102e97624
+HitResult::HitResult(Vec3 const&, Vec3 const&, BlockPos const&, unsigned char, Vec3 const&)	//0x102e97688
+HitResult::HitResult(Vec3 const&, Vec3 const&, Actor&)	//0x102e976e8
+HitResult::HitResult(Vec3 const&, Vec3 const&, Actor&, Vec3 const&)	//0x102e9776c
+HitResult::distanceTo(Actor const&)	//0x102e977c8
+HitResult::setOutOfRange()	//0x102e97814
