@@ -1,0 +1,1 @@
+ClientInstanceScreenModel::getPickRange() const	//0x10079641c
