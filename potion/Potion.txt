@@ -1,0 +1,2 @@
+Potion::initPotions()	//0x1027fd58c
+Potion::getDescriptionId(Potion::PotionType) const	//0x1027fee90
