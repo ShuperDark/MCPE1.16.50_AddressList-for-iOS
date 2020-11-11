@@ -1,0 +1,1 @@
+ActorShaderManager::_getOverlayColor(Actor&, float)	//0x100b710b4
