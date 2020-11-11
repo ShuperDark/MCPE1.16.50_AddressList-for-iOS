@@ -1,0 +1,6 @@
+InventoryTransactionPacket::InventoryTransactionPacket()	//0x101fe3154
+InventoryTransactionPacket::InventoryTransactionPacket(std::unique_ptr<ComplexInventoryTransaction, std::default_delete<ComplexInventoryTransaction> >, bool)	//0x101fe31ac
+InventoryTransactionPacket::getId() const	//0x101fe321c
+InventoryTransactionPacket::getName() const	//0x101fe3224
+InventoryTransactionPacket::write(BinaryStream&)	//0x101fe327c
+InventoryTransactionPacket::read(ReadOnlyBinaryStream&)	//0x101fe3480
