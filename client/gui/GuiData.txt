@@ -1,0 +1,5 @@
+GuiData::tick() //0x1001dd3c4
+GuiData::displayDevConsoleMessage(std::string const&) //0x1001de710
+GuiData::displayChatMessage(std::string const&, std::string const&, std::string const&, std::string const&) //0x1001dec60
+GuiData::displayClientMessage(std::string const&) //0x1001deb58
+GuiData::getScreenSizeData()  //0x1001df85c
