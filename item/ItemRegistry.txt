@@ -1,0 +1,8 @@
+ItemRegistry::initClientData(ResourcePackManager&)  //0x102790e78
+ItemRegistry::reassignOrCreateItem(std::string const&, short)  //0x102790804
+ItemRegistry::unregisterItem(std::string const&)  //0x1027904e4
+ItemRegistry::registerItem(SharedPtr<Item>&&)  //0x10278fe38
+ItemRegistry::getItem(BlockLegacy const&)  //0x10278fde4
+ItemRegistry::getItem(Block const&)  //0x10278fdb8
+ItemRegistry::getItem(short)  //0x10278fab4
+ItemRegistry::getItem(std::string const&)  //0x10278fcf0
