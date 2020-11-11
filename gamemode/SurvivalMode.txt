@@ -1,0 +1,16 @@
+SurvivalMode::SurvivalMode(Player&) //0x102722500
+SurvivalMode::attack(Actor&) //0x10272252c
+SurvivalMode::interact(Actor&, Vec3 const&) //0x102722550
+SurvivalMode::destroyBlock(BlockPos const&, unsigned char) //0x102722574
+SurvivalMode::startDestroyBlock(BlockPos const&, unsigned char, bool&) //0x102722598
+SurvivalMode::_showTrialReminder(bool) //0x1027225d0
+SurvivalMode::startBuildBlock(BlockPos const&, unsigned char) //0x102722704
+SurvivalMode::buildBlock(BlockPos const&, unsigned char) //0x102722728
+SurvivalMode::useItem(ItemStack&) //0x10272274c
+SurvivalMode::useItemOn(ItemStack&, BlockPos const&, unsigned char, Vec3 const&, Block const*) //0x102722784
+SurvivalMode::tick() //0x1027227bc
+SurvivalMode::setTrialMode(bool) //0x102722aa4
+SurvivalMode::isInTrialMode() //0x102722aac
+SurvivalMode::registerUpsellScreenCallback(std::function<void (bool)>) //0x102722ab4
+SurvivalMode::~SurvivalMode() //0x102722b80
+SurvivalMode::~SurvivalMode() //0x102722bd8
