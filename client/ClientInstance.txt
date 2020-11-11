@@ -1,0 +1,7 @@
+ClientInstance::computeScreenCoordsFromScreenNormCoords(float, float, short&, short&) //0x10005e9a4
+ClientInstance::adjustGazeCursorByMouse(float, float) //0x10005ea64
+ClientInstance::currentScreenShouldStealMouse() //0x10005ebf8
+ClientInstance::getInProgressBAI() const //0x10005ec74
+ClientInstance::clearInProgressBAI() //0x10005ec7c
+ClientInstance::resetBai(int) //0x10005ec94
+ClientInstance::tickBuildAction() //0x10005ecfc
