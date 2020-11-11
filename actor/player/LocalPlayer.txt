@@ -14,3 +14,6 @@ LocalPlayer::openCodeScreen()	//0x100b1c16c
 LocalPlayer::startCrafting(BlockPos const&, bool)	//0x100b1bc98
 LocalPlayer::openFurnace(BlockPos const&)	//0x100b1bd6c
 LocalPlayer::getJumpRidingScale()	//0x100b1f3fc
+LocalPlayer::_crit(Actor&)  //0x100b1e3d0
+LocalPlayer::checkMovementStats(Vec3 const&)  //0x100b1e5e8
+LocalPlayer::setArmor(ArmorSlot, ItemStack const&)  //0x100b1e84c
