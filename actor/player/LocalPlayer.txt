@@ -17,3 +17,7 @@ LocalPlayer::getJumpRidingScale()	//0x100b1f3fc
 LocalPlayer::_crit(Actor&)  //0x100b1e3d0
 LocalPlayer::checkMovementStats(Vec3 const&)  //0x100b1e5e8
 LocalPlayer::setArmor(ArmorSlot, ItemStack const&)  //0x100b1e84c
+LocalPlayer::onEffectRemoved(MobEffectInstance&)  //0x100b1f32c
+LocalPlayer::addExperience(int) //0x100b1f590
+LocalPlayer::addLevels(int) //0x100b1f5cc
+LocalPlayer::getPickRange() const //0x100b1fafc
