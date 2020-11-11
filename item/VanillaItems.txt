@@ -1,1 +1,5 @@
-VanillaItems::mShovel_iron	//0x103f291e8
+VanillaItems::unregisterItems() //0x1027d4a14
+VanillaItems::registerItems(bool) //0x1027bac8c
+VanillaItems::initClientData() //0x1027d9224
+VanillaItems::initCreativeItemsCallback(ActorInfoRegistry*, BlockDefinitionGroup*, bool) //0x1027e02a4
+VanillaItems::initCreativeCategories() //0x1027de73c
