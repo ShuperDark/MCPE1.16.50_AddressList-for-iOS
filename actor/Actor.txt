@@ -40,3 +40,18 @@ Actor::getMarkVariant()	//0x102289764
 Actor::getSkinID()	//0x102289770
 Actor::canAttack(Actor*, bool)	//0x10228977c
 Actor::getUniqueID() const  //0x1022884c8
+Actor::addEffect(MobEffectInstance const&)  //0x1022a4270
+Actor::removeEffect(int)  //0x1022a4420
+Actor::removeAllEffects()  //0x1022a44c4
+Actor::getActiveEffectCount() const  //0x1022a46a8
+Actor::canBeAffected(MobEffectInstance const&) const  //0x1022a474c
+Actor::canBeAffected(int) const  //0x1022a4780
+Actor::canBeAffectedByArrow(MobEffectInstance const&) const  //0x1022a490c
+Actor::hasAnyVisibleEffects() const  //0x1022a4918
+Actor::hasAnyEffects() const  //0x1022a4990
+Actor::getAllEffects() const  //0x1022a4a10
+Actor::onEffectAdded(MobEffectInstance&)  //0x1022a4a18
+Actor::onEffectUpdated(MobEffectInstance const&)  //0x1022a4c20
+Actor::onEffectRemoved(MobEffectInstance&)  //0x1022a4d54
+Actor::setInvisible(bool)  //0x1022a4ef4
+Actor::updateInvisibilityStatus()  //0x1022a4f2c
