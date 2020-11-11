@@ -1,1 +1,2 @@
 Minecraft::startLeaveGame(bool)	//0x10227b92c
+Minecraft::getTimer() //0x10227cc34
