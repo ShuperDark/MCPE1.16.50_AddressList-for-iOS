@@ -1,0 +1,8 @@
+MobEffectInstance::update(MobEffectInstance const&)	//0x1026f1c20
+MobEffectInstance::MobEffectInstance(unsigned int, int, int, int, int, int, bool, bool, bool)	//0x1026f1bc0
+MobEffectInstance::MobEffectInstance(unsigned int, int, int, bool, bool, bool)	//0x1026f1b60
+MobEffectInstance::MobEffectInstance(unsigned int, int, int)	//0x1026f1b08
+MobEffectInstance::MobEffectInstance(unsigned int, int)	//0x1026f1aac
+MobEffectInstance::MobEffectInstance(unsigned int)	//0x1026f1a50
+MobEffectInstance::MobEffectInstance()	//0x1026f1a34
+MobEffectInstance::getId()	//0x1026f1cac
