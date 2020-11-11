@@ -1,0 +1,1 @@
+Timer::getTicks() const //0x1022560fc
