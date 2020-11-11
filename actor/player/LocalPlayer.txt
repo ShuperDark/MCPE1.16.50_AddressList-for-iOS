@@ -13,3 +13,4 @@ LocalPlayer::closeScreen()	//0x100b1a1a0
 LocalPlayer::openCodeScreen()	//0x100b1c16c
 LocalPlayer::startCrafting(BlockPos const&, bool)	//0x100b1bc98
 LocalPlayer::openFurnace(BlockPos const&)	//0x100b1bd6c
+LocalPlayer::getJumpRidingScale()	//0x100b1f3fc
