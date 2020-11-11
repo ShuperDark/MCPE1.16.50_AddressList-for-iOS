@@ -39,3 +39,4 @@ Actor::getVariant()	//0x102289758
 Actor::getMarkVariant()	//0x102289764
 Actor::getSkinID()	//0x102289770
 Actor::canAttack(Actor*, bool)	//0x10228977c
+Actor::getUniqueID() const  //0x1022884c8
