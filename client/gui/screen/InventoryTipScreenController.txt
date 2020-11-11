@@ -1,0 +1,1 @@
+InventoryTipScreenController::_destroyGameTipMessage()  //0x1004669e4
