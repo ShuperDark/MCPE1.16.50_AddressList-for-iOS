@@ -1,0 +1,4 @@
+InGamePlayScreen::_pick(float)	//0x10024500c
+InGamePlayScreen::_prepareCuller(mce::Camera&, Frustum&, Frustum&)	//0x100247c90
+InGamePlayScreen::_localPlayerTurned(float)	//0x100247e60
+InGamePlayScreen::_getPickRange()	//0x100247e64
