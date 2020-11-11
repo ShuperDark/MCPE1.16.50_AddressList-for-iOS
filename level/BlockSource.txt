@@ -1,0 +1,7 @@
+BlockSource::getBlock(BlockPos const&) const  //0x10286eba0
+BlockSource::getLiquidBlock(BlockPos const&)  //0x102870cac
+BlockSource::mayPlace(Block const&, BlockPos const&, unsigned char, Actor*, bool)  //0x1028717b8
+BlockSource::getBlockEntity(BlockPos const&)  //0x102872258
+BlockSource::checkBlockPermissions(Actor&, BlockPos const&, unsigned char, ItemStack const&, bool)  //0x10286ed78
+BlockSource::getMaterial(BlockPos const&) const  //0x10287142c
+BlockSource::isEmptyBlock(int, int, int)  //0x1028768e4
