@@ -1,0 +1,3 @@
+InventoryTransaction::verifyFull(Player&, bool) const //0x102749278
+InventoryTransaction::executeFull(Player&, bool) const //0x102749c2c
+InventoryTransaction::getActions(InventorySource const&) const //0x10274a024
