@@ -1,1 +1,3 @@
-ItemStack::ItemStack(Item const&, int, int)	//0x1027964c0
+ItemStack::ItemStack(ItemStack const&)  //0x1027942d0+192(0x1027966d0)
+ItemStack::ItemStack()  //0x102794070
+ItemStack::ItemStack(Item const&, int)  //0x1027941a0
