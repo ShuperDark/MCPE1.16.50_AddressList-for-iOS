@@ -12,3 +12,10 @@ Player::setBedRespawnPosition(BlockPos const&)	//0x1026527b8
 Player::getSpeed()	//0x102651e80
 Player::actuallyHurt(int, ActorDamageSource const*, bool)	//0x102651950
 Player::add(ItemStack&)	//0x102657804
+Player::isInCreativeMode(): 0x102656e40
+Player::canUseAbility(AbilitiesIndex): 0x102656e84
+Player::die(ActorDamageSource const&): 0x102656ee4
+Player::awardKillScore(Actor&, int): 0x10265710c
+Player::isShootable(): 0x10265711c
+Player::isCreativeModeAllowed(): 0x102657124
+Player::isInTrialMode(): 0x10265712c
