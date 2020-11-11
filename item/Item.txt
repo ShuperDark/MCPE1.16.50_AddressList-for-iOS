@@ -1,0 +1,13 @@
+Item::Item(std::string const&, short) //0x102783ad4
+Item::~Item() //0x102784240
+Item::setMaxStackSize(unsigned char)  //0x102784644
+Item::setIcon(std::string const&, int)  //0x10278488c
+Item::use(ItemStack&, Player&) const  //0x10278513c
+Item::useOn(ItemStack&, Actor&, int, int, int, unsigned char, float, float, float) const  //0x1027852b4
+Item::setCategory(CreativeItemCategory) //0x10278611c
+Item::buildDescriptionName(ItemStack const&) const  //0x1027863a0
+Item::setStackedByData(bool)  //0x102787f24
+Item::setMaxDamage(int) //0x102787f38
+Item::getEnchantValue() //0x102788208
+Item::initCreativeItems(bool, ActorInfoRegistry*, BlockDefinitionGroup*, bool, std::function<void (ActorInfoRegistry*, BlockDefinitionGroup*, bool)>) //0x102782fb0
+Item::addCreativeItem(short, short) //0x102782318
