@@ -30,12 +30,12 @@ Actor::getAmbientSoundIntervalRange(float&)	//0x102295e00
 Actor::getAmbientSoundIntervalMin(float&)	//0x102295dac
 Actor::getPickRadius()	//0x102295eec
 Actor::getPos() //0x10228d2b8
-Actor::isInClouds():0x102289460
+Actor::isInClouds()	//0x102289460
 Actor::isUnderWaterfall(): 0x10228948c
-Actor::canBeginOrContinueClimbingLadder(bool): 0x102289528
-Actor::onLadder(bool): 0x102289630
-Actor::canClimb(): 0x102289730
-Actor::getVariant(): 0x102289758
-Actor::getMarkVariant(): 0x102289764
-Actor::getSkinID(): 0x102289770
-Actor::canAttack(Actor*, bool): 0x10228977c
+Actor::canBeginOrContinueClimbingLadder(bool)	//0x102289528
+Actor::onLadder(bool)	//0x102289630
+Actor::canClimb()	//0x102289730
+Actor::getVariant()	//0x102289758
+Actor::getMarkVariant()	//0x102289764
+Actor::getSkinID()	//0x102289770
+Actor::canAttack(Actor*, bool)	//0x10228977c
