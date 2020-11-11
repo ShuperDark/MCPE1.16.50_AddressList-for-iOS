@@ -12,10 +12,28 @@ Player::setBedRespawnPosition(BlockPos const&)	//0x1026527b8
 Player::getSpeed()	//0x102651e80
 Player::actuallyHurt(int, ActorDamageSource const*, bool)	//0x102651950
 Player::add(ItemStack&)	//0x102657804
-Player::isInCreativeMode(): 0x102656e40
-Player::canUseAbility(AbilitiesIndex): 0x102656e84
-Player::die(ActorDamageSource const&): 0x102656ee4
-Player::awardKillScore(Actor&, int): 0x10265710c
-Player::isShootable(): 0x10265711c
-Player::isCreativeModeAllowed(): 0x102657124
-Player::isInTrialMode(): 0x10265712c
+Player::isInCreativeMode() //0x102656e40
+Player::canUseAbility(AbilitiesIndex) //0x102656e84
+Player::die(ActorDamageSource const&) //0x102656ee4
+Player::awardKillScore(Actor&, int) //0x10265710c
+Player::isShootable() //0x10265711c
+Player::isCreativeModeAllowed() //0x102657124
+Player::isInTrialMode() //0x10265712c
+Player::getSupplies() //0x102654378
+Player::getItemUseDuration() //0x10265556c
+Player::getItemUseStartupProgress() //0x102655574
+Player::getItemUseIntervalProgress() //0x1026555ec
+Player::getTicksUsingItem() //0x102655644
+Player::isBlocking() const //0x102655690
+Player::getCurrentActiveShield() const //0x10265578c
+Player::isDamageBlocked(ActorDamageSource const&) const //0x102655824
+Player::move(Vec3 const&) //0x102655940
+Player::travel(float, float, float) //0x102655974
+Player::stopGliding() //0x102655bd0
+Player::checkMovementStats(Vec3 const&) //0x102655c24
+Player::causeFoodExhaustion(float) //0x102655c28
+Player::handleJumpEffects() //0x102655cd0
+Player::setArmor(ArmorSlot, ItemStack const&) //0x102663f9c
+Player::updateInventoryTransactions() //0x102656b74
+Player::drop(ItemStack const&, bool) //0x102661e9c
+Player::setOffhandSlot(ItemStack const&) //0x102664078
