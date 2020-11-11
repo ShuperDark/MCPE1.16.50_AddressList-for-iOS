@@ -7,3 +7,4 @@ Mob::setIsPregnant(bool)	//0x102457734
 Mob::sendInventory(bool)	//0x10245b090
 Mob::rideTick()	//0x10245d240
 Mob::canPowerJump()	//0x10245eedc
+Mob::setEquippedSlot(ArmorSlot, ItemStack const&): 0x10245a6f0
