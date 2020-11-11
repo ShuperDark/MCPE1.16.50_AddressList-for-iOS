@@ -1,0 +1,1 @@
+ItemStackNetManagerBase::_tryBeginClientLegacyTransactionRequest(Player*) //0x102728ed8
