@@ -1,0 +1,8 @@
+MeleeAttackGoal::canContinueToUse(): 0x1014cdff4
+MeleeAttackGoal::start(): 0x1014ce22c
+MeleeAttackGoal::stop(): 0x1014ce33c
+MeleeAttackGoal::tick(): 0x1014ce394
+MeleeAttackGoal::appendDebugInfo(std::string&): 0x1014ce670
+MeleeAttackGoal::_getAttackReach(): 0x1014ce944
+MeleeAttackGoal::_getAttackReachSqr(): 0x1014cebe4
+MeleeAttackGoal::MeleeAttackGoal(Mob&, float, bool, float, ActorCategory, int, float, bool, bool): 0x1014cda24
