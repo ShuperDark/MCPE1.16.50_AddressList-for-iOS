@@ -3,3 +3,4 @@ ItemStack::ItemStack()  //0x102794070
 ItemStack::ItemStack(Item const&, int)  //0x1027941a0
 ItemStack::getBlock() const //0x10279a424
 ItemStack::getDescriptor() const  //0x102796b5c
+ItemStack::operator==(ItemStack const&) const //0x10279c478
