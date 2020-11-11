@@ -1,0 +1,2 @@
+PlayerInventoryProxy::add(ItemStack&, bool) //0x1026691ac
+PlayerInventoryProxy::getItem(int, ContainerID) //0x1026695fc
