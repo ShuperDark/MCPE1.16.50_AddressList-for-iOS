@@ -2,3 +2,7 @@ ServerPlayer::handleFallDistanceOnServer(float, bool)	//0x1020afc5c
 ServerPlayer::tickWorld(const Tick&)	//0x1020ac7c4
 ServerPlayer::die(ActorDamageSource const&)	//0x1020ac700
 ServerPlayer::checkFallDamage(float, bool)	//0x1020afb80
+ServerPlayer::sendMobEffectPackets()  //0x1020b36d0
+ServerPlayer::onEffectAdded(MobEffectInstance&) //0x1020b3c1c
+ServerPlayer::onEffectUpdated(MobEffectInstance const&) //0x1020b3ccc
+ServerPlayer::onEffectRemoved(MobEffectInstance&) //0x1020b3d7c
