@@ -4,6 +4,10 @@ BlockLegacy::getColorForParticle(BlockSource&, BlockPos const&, Block const&)	//
 BlockLegacy::getColor(Block const&)	//0x1029c0ba8
 BlockLegacy::setDestroyTime(float)	//0x1029c1114
 BlockLegacy::getAlphaTested()	//0x1029c1938
-BlockLegacy::canHartAndBreakItem()	//0x1029c1ae8
+BlockLegacy::canHurtAndBreakItem()	//0x1029c1ae8
 BlockLegacy::isUnbreakable()	//0x1029c04d4
 BlockLegacy::getMapColor()	//0x1029bf104
+BlockLegacy::buildDescriptionId(Block const&) const //0x1029c0ffc
+BlockLegacy::buildDescriptionName(Block const&) const //0x1029c0f0c
+BlockLegacy::getFullName() const  //0x1029c0f04
+BlockLegacy::canSurvive(BlockSource&, BlockPos const&) const  //0x1029c0e58
