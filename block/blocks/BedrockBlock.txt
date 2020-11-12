@@ -1,0 +1,3 @@
+vtable for BedrockBlock(0x103d8e288)
+
+BedrockBlock::BedrockBlock(std::string const&, int) //0x1029b7110
