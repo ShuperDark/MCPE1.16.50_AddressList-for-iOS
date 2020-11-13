@@ -1,3 +1,4 @@
+BlockLegacy::BlockLegacy(std::string const&, int, Material const&)  //0x1029be250
 BlockLegacy::getColor(BlockSource&, BlockPos const&, Block const&)	//0x1029c0bb0
 BlockLegacy::getColorAtPos(BlockSource&, BlockPos const&)	//0x1029c0bb8
 BlockLegacy::getColorForParticle(BlockSource&, BlockPos const&, Block const&)	//0x1029c0bc0
@@ -11,3 +12,46 @@ BlockLegacy::buildDescriptionId(Block const&) const //0x1029c0ffc
 BlockLegacy::buildDescriptionName(Block const&) const //0x1029c0f0c
 BlockLegacy::getFullName() const  //0x1029c0f04
 BlockLegacy::canSurvive(BlockSource&, BlockPos const&) const  //0x1029c0e58
+BlockLegacy::setExplodeable(float)  //0x1029c1104
+BlockLegacy::setLightBlock(Brightness)  //0x1029c10f8
+BlockLegacy::setFriction(float) //0x1029c1134
+BlockLegacy::addBlockProperty(BlockProperty)  //0x1029c113c
+BlockLegacy::init() //0x1029bf1f8
+BlockLegacy::setLightEmission(float)  //0x1029bf1d8
+BlockLegacy::animateTick(BlockSource&, BlockPos const&, Random&) const  //0x1029bf1d4
+BlockLegacy::getRawNameId() const //0x1029be950
+BlockLegacy::getNamespace() const //0x1029be948
+BlockLegacy::setSolid(bool) //0x1029be91c
+BlockLegacy::setDefaultState(Block const&)  //0x1029be248
+BlockLegacy::createWeakPtr()  //0x1029be240
+BlockLegacy::createBlockPermutations(unsigned int)  //0x1029be004
+BlockLegacy::getFaceFlip(unsigned char, Block const&) const //0x1029c12fc
+BlockLegacy::setVisualShape(Vec3 const&, Vec3 const&) //0x1029c1304
+BlockLegacy::setVisualShape(AABB const&)  //0x1029c130c
+BlockLegacy::mayPlaceOn(BlockSource&, BlockPos const&) const  //0x1029c1314
+BlockLegacy::mayPlace(BlockSource&, BlockPos const&) const  //0x1029c131c
+BlockLegacy::mayPlace(BlockSource&, BlockPos const&, unsigned char) const //0x1029c13a8
+BlockLegacy::tryToPlace(BlockSource&, BlockPos const&, Block const&, ActorBlockSyncMessage const*) const  //0x1029c13b4
+BlockLegacy::breaksFallingBlocks(Block const&) const  //0x1029c141c
+BlockLegacy::setCategory(CreativeItemCategory)  //0x1029c142c
+BlockLegacy::neighborChanged(BlockSource&, BlockPos const&, BlockPos const&) const  //0x1029c1434
+BlockLegacy::getSecondPart(BlockSource&, BlockPos const&, BlockPos&) const  //0x1029c1438
+BlockLegacy::onGraphicsModeChanged(bool, bool, bool, bool)  //0x1029c1440
+BlockLegacy::DEPRECATEDcallOnGraphicsModeChanged(bool, bool, bool, bool)  //0x1029c1448
+BlockLegacy::checkIsPathable(Actor&, BlockPos const&, BlockPos const&) const  //0x1029c1538
+BlockLegacy::shouldDispense(BlockSource&, Container&) const //0x1029c1554
+BlockLegacy::dispense(BlockSource&, Container&, int, Vec3 const&, unsigned char) const  //0x1029c155c
+BlockLegacy::onPlace(BlockSource&, BlockPos const&) const //0x1029c1564
+BlockLegacy::onRemove(BlockSource&, BlockPos const&) const  //0x1029c1568
+BlockLegacy::onExploded(BlockSource&, BlockPos const&, Actor*) const  //0x1029c15b4
+BlockLegacy::onStepOn(Actor&, BlockPos const&) const  //0x1029c15b8
+BlockLegacy::onFallOn(BlockSource&, BlockPos const&, Actor*, float) const //0x1029c15bc
+BlockLegacy::updateEntityAfterFallOn(Actor&) const  //0x1029c15d8
+BlockLegacy::isBounceBlock() const  //0x1029c15f4
+BlockLegacy::isVanilla() const  //0x1029c15fc
+BlockLegacy::setIsVanillaBlock(bool)  //0x1029c1604
+BlockLegacy::ignoreEntitiesOnPistonMove(Block const&) const //0x1029c160c
+BlockLegacy::onFertilized(BlockSource&, BlockPos const&, Actor*, FertilizerType) const  //0x1029c1614
+BlockLegacy::mayConsumeFertilizer(BlockSource&) const //0x1029c161c
+BlockLegacy::canBeSilkTouched() const //0x1029c1634
+BlockLegacy::getMobToSpawn(SpawnConditions const&, BlockSource&) const  //0x1029c163c
