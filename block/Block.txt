@@ -1,2 +1,14 @@
+Block::Block(unsigned short, WeakPtr<BlockLegacy>&) //0x1029bba24
 Block::getColor(BlockSource&, BlockPos const&)	//0x1029bbef8
 Block::getColor()	//0x1029bbee0
+Block::canSlide(BlockSource&, BlockPos const&) const  //0x1029bbab0
+Block::canInstatick() const //0x1029bbac4
+Block::getCreativeCategory() const  //0x1029bbad0
+Block::getGravity() const //0x1029bbadc
+Block::getMaterial() const  //0x1029bbae8
+Block::getMapColor(BlockSource&, BlockPos const&) const //0x1029bbaf4
+Block::getMapColor() const  //0x1029bbb08
+Block::getFriction() const  //0x1029bbb1c
+Block::getDestroySpeed() const  //0x1029bbb28
+Block::tick(BlockSource&, BlockPos const&, Random&) const //0x1029bbb34
+Block::animateTick(BlockSource&, BlockPos const&, Random&) const  //0x1029bbb48
